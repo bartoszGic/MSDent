@@ -7,7 +7,7 @@ const Carousel = () => {
 	return (
 		<TECarousel
 			ride='carousel'
-			className='w-full'>
+			className='w-full h-full'>
 			<div className="relative flex h-full overflow-hidden after:clear-both after:block after:content-[''] -z-50 sm:rounded-lg">
 				<TECarouselItem
 					itemID={1}

@@ -14,7 +14,7 @@ export default function Home() {
 	return (
 		<section className='flex flex-col w-full pt-20 pb-12 sm:pt-32 sm:px-12 md:py-40 lg:px-20'>
 			<div className='grid grid-rows-2 h-calc mb-12 sm:grid-cols-2 sm:grid-rows-1 sm:h-96 sm:mb-8'>
-				{loadCarousuel && <Carousel />}
+				{loadCarousuel ? <Carousel /> : <div className='h-full'></div>}
 				<div className='flex flex-col justify-center py-8 items-center text-center sm:py-16'>
 					<div className='grid grid-cols-1'>
 						<div className='grid grid-rows-2 gap-2 font-bold text-2xl tracking-wider text-green md:text-4xl'>
