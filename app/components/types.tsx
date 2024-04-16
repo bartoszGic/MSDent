@@ -41,8 +41,8 @@ export const linksSevicesNav = [
 ];
 export const linksNav = [
 	{ name: 'START', href: '/' },
-	{ name: 'ZESPÓŁ', href: '/Team' },
 	{ name: 'USŁUGI', href: '/Services' },
+	{ name: 'ZESPÓŁ', href: '/Team' },
 	// { name: 'CENNIK', href: '/Prices' },
 	{ name: 'GWARACJA', href: '/Warranty' },
 	{ name: 'KONTAKT', href: '/Contact' },

@@ -39,7 +39,7 @@ const Header = () => {
 					/>
 				</nav>
 				<nav
-					className={`absolute right-0 top-20 h-calc w-1/2 bg-green flex flex-col items-center transition-transform duration-200 ${
+					className={`absolute right-0 top-20 h-calc w-5/12 bg-green flex flex-col items-center transition-transform duration-200 ${
 						showNav ? 'translate-x-0' : 'translate-x-full md:invisible'
 					}`}>
 					<Links
@@ -49,7 +49,7 @@ const Header = () => {
 					/>
 				</nav>
 				<nav
-					className={`absolute h-calc left-0 top-20 w-1/2 bg-green flex flex-col items-center transition-transform duration-200 md:invisible ${
+					className={`absolute h-calc left-0 top-20 w-7/12 bg-green flex flex-col items-center transition-transform duration-200 md:invisible ${
 						showServices ? 'translate-x-0' : '-translate-x-full'
 					}`}>
 					<LinksServices

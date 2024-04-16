@@ -37,13 +37,13 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<div className='mt-8'>
+			<div>
 				<div className='grid grid-cols-1 gap-8 md:grid-cols-2'>
 					<div className='grid grid-cols-1'>
 						<h2 className='tracking-widest text-4xl text-yellow text-center mb-8'>
 							Witamy
 						</h2>
-						<p className='text-dark font-normal text-center sm:text-lg lg:text-2xl'>
+						<p className='text-dark font-normal text-center px-4 sm:text-lg md:px-0 lg:text-2xl'>
 							W naszej praktyce od {timePeriod} lat stale rozwijamy się, tworząc
 							zespół doświadczonych specjalistów, którzy dbają o każdego
 							Pacjenta z indywidualną troską i serdecznością. Nasz priorytet to

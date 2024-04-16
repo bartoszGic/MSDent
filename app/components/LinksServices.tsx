@@ -15,12 +15,17 @@ const LinksServices = ({ setShowServices, setShowNav }: LinksServicesProps) => {
 		setShowNav(false);
 	};
 	return (
-		<ul className='flex flex-col w-full p-2 justify-between z-50'>
+		<ul className='flex flex-col w-full py-2 px-3 justify-between z-50 md:px-2'>
+			<li className='flex justify-center relative my-3 md:justify-start md:my-2 md:mb-0'>
+				<div className='flex mx-0 text-white relative group tracking-wider font-light text-xl invisible md:mb-1 md:mx-2 md:hidden'>
+					X
+				</div>
+			</li>
 			{linksSevicesNav.map(link => {
 				const isActive = link.href === pathname;
 				return (
 					<li
-						className='flex relative my-3 md:my-0 md:mb-0'
+						className='flex justify-end relative my-3 md:justify-start md:my-2 md:mb-0'
 						key={link.name}>
 						<Link
 							onClick={closeMenus}
