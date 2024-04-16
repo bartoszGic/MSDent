@@ -42,22 +42,24 @@ const Links = ({ setShowNav, setShowServices, showServices }: LinksProps) => {
 	};
 
 	return (
-		<ul className='flex flex-col w-full p-2 justify-between md:flex-row md:h-full'>
+		<ul className='relative flex flex-col w-full p-2 justify-between md:flex-row md:h-full'>
 			{linksNav.map(link => {
 				const isActive = link.href === pathname;
 				return (
 					<li
 						onMouseEnter={() => handleMouseEnter(link.name)}
 						onMouseLeave={() => handleMouseLeave(link.name)}
-						className={`flex mb-4 md:mb-0 ${
-							link.name === 'USŁUGI' ? 'mr-0 ml-1' : 'mx-1'
+						className={`flex relative my-3 md:my-0 md:mb-0 ${
+							link.name === 'USŁUGI'
+								? 'mr-1 ml-0 flex-row-reverse'
+								: 'mx-1 flex-row justify-end'
 						} `}
 						key={link.name}>
 						<Link
 							onClick={closeNavs}
 							href={link.href}
 							className='z-10 flex mx-0 text-white relative group md:mb-0 md:mx-2'>
-							<p className='flex justify-center items-center text-center tracking-wider font-light text-lg'>
+							<p className='flex justify-center items-center text-center tracking-wider font-light text-xl'>
 								{link.name}
 							</p>
 							<span
@@ -70,11 +72,11 @@ const Links = ({ setShowNav, setShowServices, showServices }: LinksProps) => {
 								} right-1/2 -bottom-[1px] h-[1px] bg-white group-hover:w-1/2 group-hover:transition-all md:-bottom-1`}></span>
 						</Link>
 						{link.name === 'USŁUGI' && (
-							<div className='ml-3 relative md:ml-0 mr-2'>
+							<div className='mr-3 md:relative md:mr-0 ml-2'>
 								<button
 									onClick={servicesHandler}
-									className={`flex hover:scale-95 active:scale-95 h-full items-center transition-transform duration-200 ${
-										showServices && '-rotate-180'
+									className={`flex hover:scale-95 active:scale-95 h-full items-center -rotate-180 transition-transform duration-200 ${
+										showServices && 'rotate-0'
 									}`}>
 									<svg
 										xmlns='http://www.w3.org/2000/svg'
@@ -105,7 +107,7 @@ const Links = ({ setShowNav, setShowServices, showServices }: LinksProps) => {
 								</button>
 								<nav
 									ref={containerRef}
-									className={`hidden absolute bg-green top-8 -left-[91px] items-center justify-center transition-transform duration-100 rounded-lg md:flex md:w-[224px] md:flex-col ${
+									className={`hidden bg-green top-8 -left-3 items-center justify-center transition-transform duration-100 rounded-lg md:absolute md:flex md:w-[224px] md:flex-col ${
 										showServices
 											? 'scale-y-100 origin-top'
 											: 'scale-y-0 origin-top'

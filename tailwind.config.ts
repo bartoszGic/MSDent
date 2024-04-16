@@ -10,7 +10,7 @@ const config: Config = {
 	theme: {
 		extend: {
 			height: {
-				calc: 'calc(100svh - 80px)',
+				calc: 'calc(100lvh - 80px)',
 			},
 		},
 		colors: {

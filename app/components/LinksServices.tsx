@@ -15,18 +15,18 @@ const LinksServices = ({ setShowServices, setShowNav }: LinksServicesProps) => {
 		setShowNav(false);
 	};
 	return (
-		<div className='flex flex-col w-full p-2 justify-between z-50'>
+		<ul className='flex flex-col w-full p-2 justify-between z-50'>
 			{linksSevicesNav.map(link => {
 				const isActive = link.href === pathname;
 				return (
-					<div
-						className='flex mb-4 md:mb-0 md:py-1'
+					<li
+						className='flex relative my-3 md:my-0 md:mb-0'
 						key={link.name}>
 						<Link
 							onClick={closeMenus}
 							href={link.href}
 							className='flex mx-0 text-white relative group md:mb-1 md:mx-2'>
-							<p className='flex tracking-wider font-light text-lg'>
+							<p className='flex tracking-wider font-light text-xl'>
 								{link.name}
 							</p>
 							<span
@@ -38,10 +38,10 @@ const LinksServices = ({ setShowServices, setShowNav }: LinksServicesProps) => {
 									isActive ? 'w-1/2' : 'w-0'
 								} right-1/2 -bottom-[1px] h-[1px] bg-white group-hover:w-1/2 group-hover:transition-all md:-bottom-1`}></span>
 						</Link>
-					</div>
+					</li>
 				);
 			})}
-		</div>
+		</ul>
 	);
 };
 

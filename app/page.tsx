@@ -40,7 +40,7 @@ export default function Home() {
 			<div className='mt-8'>
 				<div className='grid grid-cols-1 gap-8 md:grid-cols-2'>
 					<div className='grid grid-cols-1'>
-						<h2 className='tracking-widest text-2xl text-yellow text-center mb-8 md:text-4xl'>
+						<h2 className='tracking-widest text-4xl text-yellow text-center mb-8'>
 							Witamy
 						</h2>
 						<p className='text-dark font-normal text-center sm:text-lg lg:text-2xl'>
