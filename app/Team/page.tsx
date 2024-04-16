@@ -15,7 +15,7 @@ const Team = () => {
 							className='mx-auto w-2/3 h-auto object-cover rounded-lg md:w-64 lg:w-96'
 							src={mSmaluch}
 							alt='Marzena Smaluch'
-							sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
+							sizes='(min-width: 1040px) 384px, (min-width: 780px) 256px, (min-width: 640px) calc(66.67vw - 64px), calc(66.56vw - 21px)'
 						/>
 					</div>
 					<div className='md:order-1'>
@@ -42,7 +42,7 @@ const Team = () => {
 							className='mx-auto w-2/3 h-auto object-cover rounded-lg md:w-64 lg:w-96'
 							src={dPopiolek}
 							alt='Dorota Popiołek'
-							sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
+							sizes='(min-width: 1040px) 384px, (min-width: 780px) 256px, (min-width: 640px) calc(66.67vw - 64px), calc(66.56vw - 21px)'
 						/>
 					</div>
 					<div className='md:order-2'>

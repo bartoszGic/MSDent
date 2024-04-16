@@ -57,7 +57,7 @@ export default function Home() {
 						className='mx-auto w-2/3 h-auto object-cover rounded-lg md:w-64 lg:w-96 sm:my-auto'
 						src={msdent_hero}
 						alt='logo firmy'
-						sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
+						sizes='(min-width: 1040px) 384px, (min-width: 780px) 256px, (min-width: 640px) calc(66.67vw - 64px), 66.56vw'
 					/>
 				</div>
 			</div>

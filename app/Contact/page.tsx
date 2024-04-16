@@ -64,7 +64,7 @@ const Contact = () => {
 									className='object-cover'
 									src={znanyLekarz}
 									alt='znany lekarz'
-									sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
+									sizes='(min-width: 1360px) 512px, (min-width: 1040px) calc(40vw - 24px), (min-width: 780px) calc(50vw - 80px), (min-width: 640px) calc(100vw - 96px), calc(100vw - 32px)'
 								/>
 							</Link>
 						</div>
@@ -80,7 +80,7 @@ const Contact = () => {
 									className='object-cover'
 									src={facebook}
 									alt='facebook'
-									sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
+									sizes='(min-width: 1340px) 112px, (min-width: 1040px) calc(10.71vw - 29px), (min-width: 780px) calc(12.5vw - 36px), (min-width: 640px) calc(33.33vw - 48px), calc(33.44vw - 27px)'
 								/>
 							</Link>
 						</div>

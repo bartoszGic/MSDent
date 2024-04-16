@@ -5,7 +5,6 @@ import Link from 'next/link';
 import msdent_header from '../../public/msdent-head.png';
 import Links from './Links';
 import LinksServices from './LinksServices';
-
 const Header = () => {
 	const [showNav, setShowNav] = useState(false);
 	const [showServices, setShowServices] = useState(false);

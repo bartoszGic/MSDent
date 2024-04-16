@@ -37,7 +37,7 @@ const Services = () => {
 									className='rounded-lg w-[450px]'
 									src={link.image}
 									alt={link.name}
-									sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
+									sizes='(min-width: 1240px) 450px, (min-width: 1040px) calc(32.22vw + 57px), (min-width: 780px) calc(50vw - 96px), (min-width: 520px) 450px, 91vw'
 								/>
 								<div
 									className={`absolute flex w-full items-center top-0 h-full bg-white bg-opacity-90 p-2 rounded-lg transition-all duration-200 ${
