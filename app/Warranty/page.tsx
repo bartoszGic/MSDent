@@ -20,15 +20,15 @@ const Warranty = () => {
 					badanie jamy ustnej. Wizyty te są warunkiem naszej gwarancji. W
 					przeciwnym wypadku gwarancja ulega skróceniu do 12 miesięcy.
 				</p>
-				<h3 className='my-8 px-2 text-2xl text-blue md:my-12 md:text-2xl'>
+				<h3 className='mb-8 mt-16 text-center text-2xl text-blue md:my-12 md:text-2xl'>
 					Okres gwarancji liczony w miesiącach
 				</h3>
-				<ul className='grid grid-cols-1 gap-2 font-normal md:gap-4 lg:grid-cols-1 md:text-lg md:font-medium lg:gap-6'>
+				<ul className='grid grid-cols-1 gap-2 mb-8 font-normal md:gap-4 lg:grid-cols-1 md:text-lg md:font-medium lg:gap-6'>
 					{warranty.map(item => {
 						return (
 							<li
 								key={item.name}
-								className='grid grid-cols-5 gap-2 items-center p-2 text-dark bg-brokenWhite rounded-lg md:p-4'>
+								className='grid grid-cols-5 gap-2 items-center px-4 py-2 text-dark bg-brokenWhite rounded-lg md:px-8 md:py-4'>
 								<h4
 									className={`col-span-4 ${
 										item.time && 'col-span-4'
@@ -64,7 +64,7 @@ const Warranty = () => {
 						);
 					})}
 				</ul>
-				<h3 className='my-4 px-2 text-xl text-blue md:my-12 md:text-2xl'>
+				<h3 className='mb-8 mt-16 text-center text-2xl text-blue md:my-12 md:text-2xl'>
 					Gwarancja nie obejmuje
 				</h3>
 				<ul className='grid grid-cols-1 gap-2 font-normal md:gap-4 md:text-lg md:font-medium lg:gap-6'>
@@ -72,13 +72,13 @@ const Warranty = () => {
 						return (
 							<li
 								key={item}
-								className='grid grid-cols-1 gap-2 items-center p-2 text-dark bg-brokenWhite rounded-lg md:p-4'>
+								className='grid grid-cols-1 gap-2 items-center px-4 py-2 text-dark bg-brokenWhite rounded-lg md:px-8 md:py-4'>
 								<h4 className='font-light'>{item}</h4>
 							</li>
 						);
 					})}
 				</ul>
-				<h3 className='my-4 px-2 text-xl text-blue md:my-12 md:text-2xl'>
+				<h3 className='mb-8 mt-16 text-center text-2xl text-blue md:my-12 md:text-2xl'>
 					Nie podlegają gwarancji uszkodzenia
 				</h3>
 				<ul className='grid grid-cols-1 gap-2 font-normal md:gap-4 md:text-lg md:font-medium lg:gap-6'>
@@ -86,7 +86,7 @@ const Warranty = () => {
 						return (
 							<li
 								key={item}
-								className='grid grid-cols-1 gap-2 items-center p-2 text-dark bg-brokenWhite rounded-lg md:p-4'>
+								className='grid grid-cols-1 gap-2 items-center px-4 py-2 text-dark bg-brokenWhite rounded-lg md:px-8 md:py-4'>
 								<h4 className='font-light'>{item}</h4>
 							</li>
 						);
