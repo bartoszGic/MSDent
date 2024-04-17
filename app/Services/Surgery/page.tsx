@@ -7,19 +7,15 @@ const Surgery = () => {
 				<h2 className='tracking-widest text-4xl text-yellow text-center mb-8 md:mb-12'>
 					Chirurgia stomatologiczna
 				</h2>
-				<p className='mb-8 text-sm text-dark tracking-wide md:text-xl md:mb-16'>
-					<span className='md:text-xl md:font-light'>
-						Oferujemy różnorodne procedury chirurgii stomatologicznej, które
-						obejmują usuwanie zębów, zarówno standardowe jak i skomplikowane
-						przypadki, oraz inne zabiegi chirurgiczne, takie jak plastyka
-						połączenia ustno-zatokowego i resekcja. Nasz doświadczony zespół
-						zapewnia profesjonalną opiekę i bezpieczne procedury chirurgiczne.
-					</span>
+				<p className='mb-8 text-dark tracking-wide md:text-xl md:mb-16 md:font-light'>
+					Oferujemy różnorodne procedury chirurgii stomatologicznej, które
+					obejmują usuwanie zębów, zarówno standardowe jak i skomplikowane
+					przypadki, oraz inne zabiegi chirurgiczne, takie jak plastyka
+					połączenia ustno-zatokowego i resekcja. Nasz doświadczony zespół
+					zapewnia profesjonalną opiekę i bezpieczne procedury chirurgiczne.
 				</p>
-				<h3 className='my-4 px-2 text-xl text-blue md:my-12'>
-					<span className='md:text-2xl'>Cennik</span>
-				</h3>
-				<ul className='grid grid-cols-1 gap-2 text-sm font-normal md:gap-4 lg:grid-cols-2 md:text-lg md:font-medium lg:gap-6'>
+				<h3 className='my-4 px-2 text-2xl text-blue md:my-12'>Cennik</h3>
+				<ul className='grid grid-cols-1 gap-2 font-normal md:gap-4 lg:grid-cols-2 md:text-lg md:font-medium lg:gap-6'>
 					{surgery.map(item => {
 						return (
 							<li

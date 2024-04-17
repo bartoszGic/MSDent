@@ -9,7 +9,7 @@ const Warranty = () => {
 				<h2 className='tracking-widest text-4xl text-yellow text-center mb-8 md:mb-12'>
 					Gwarancja
 				</h2>
-				<p className='mb-8 text-sm text-dark tracking-wide md:text-xl md:mb-16 md:font-light'>
+				<p className='text-dark tracking-wide md:text-xl md:mb-16 md:font-light'>
 					W leczeniu zawsze dokładamy wszelkich starań, aby wykonywane przez nas
 					zabiegi były perfekcyjne oraz spełniały oczekiwania naszych Pacjentów.
 					W pełni odpowiadamy za jakość naszej pracy i dlatego na wykonywane w
@@ -20,10 +20,10 @@ const Warranty = () => {
 					badanie jamy ustnej. Wizyty te są warunkiem naszej gwarancji. W
 					przeciwnym wypadku gwarancja ulega skróceniu do 12 miesięcy.
 				</p>
-				<h3 className='my-4 px-2 text-xl text-blue md:my-12 md:text-2xl'>
+				<h3 className='my-8 px-2 text-2xl text-blue md:my-12 md:text-2xl'>
 					Okres gwarancji liczony w miesiącach
 				</h3>
-				<ul className='grid grid-cols-1 gap-2 text-sm font-normal md:gap-4 lg:grid-cols-1 md:text-lg md:font-medium lg:gap-6'>
+				<ul className='grid grid-cols-1 gap-2 font-normal md:gap-4 lg:grid-cols-1 md:text-lg md:font-medium lg:gap-6'>
 					{warranty.map(item => {
 						return (
 							<li
@@ -67,7 +67,7 @@ const Warranty = () => {
 				<h3 className='my-4 px-2 text-xl text-blue md:my-12 md:text-2xl'>
 					Gwarancja nie obejmuje
 				</h3>
-				<ul className='grid grid-cols-1 gap-2 text-sm font-normal md:gap-4 md:text-lg md:font-medium lg:gap-6'>
+				<ul className='grid grid-cols-1 gap-2 font-normal md:gap-4 md:text-lg md:font-medium lg:gap-6'>
 					{warrantyNot.map(item => {
 						return (
 							<li
@@ -81,7 +81,7 @@ const Warranty = () => {
 				<h3 className='my-4 px-2 text-xl text-blue md:my-12 md:text-2xl'>
 					Nie podlegają gwarancji uszkodzenia
 				</h3>
-				<ul className='grid grid-cols-1 gap-2 text-sm font-normal md:gap-4 md:text-lg md:font-medium lg:gap-6'>
+				<ul className='grid grid-cols-1 gap-2 font-normal md:gap-4 md:text-lg md:font-medium lg:gap-6'>
 					{warrantyNotDamages.map(item => {
 						return (
 							<li

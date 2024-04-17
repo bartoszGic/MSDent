@@ -19,10 +19,10 @@ const Team = () => {
 						/>
 					</div>
 					<div className='md:order-1'>
-						<h4 className='text-lg text-lightBlue mb-4 md:text-2xl'>
+						<h4 className='text-xl text-lightBlue mb-4 md:text-2xl'>
 							Lek. stom. Marzena Smaluch
 						</h4>
-						<p className='text-sm text-darker font-light tracking-wide md:text-xl md:text-dark'>
+						<p className='text-darker font-light tracking-wide md:text-xl md:text-dark'>
 							Jestem doświadczonym lekarzem, którego droga zawodowa zaczęła się
 							po ukończeniu Wydziału Stomatologii Śląskiej Akademii Medycznej w
 							1996 roku. Od 2000 roku jestem właścicielką i głównym lekarzem w
@@ -46,10 +46,10 @@ const Team = () => {
 						/>
 					</div>
 					<div className='md:order-2'>
-						<h4 className='text-lg text-lightBlue mb-4 md:text-2xl'>
+						<h4 className='text-xl text-lightBlue mb-4 md:text-2xl'>
 							Lek. stom. Dorota Popiołek
 						</h4>
-						<p className='text-sm text-darker font-light tracking-wide md:text-xl md:text-dark'>
+						<p className='text-darker font-light tracking-wide md:text-xl md:text-dark'>
 							Ukończyłam Śląską Akademię Medyczną w 2003 roku. Moja praktyka
 							obejmuje leczenie zarówno dorosłych, jak i dzieci. Interesuję się
 							szeroko pojętą stomatologią estetyczną i odtwórczą. W mojej pracy

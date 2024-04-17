@@ -12,18 +12,20 @@ const Contact = () => {
 			<div className='grid gap-8 w-full md:gap-16 text-dark'>
 				<div className='grid gap-12 md:grid-cols-2 md:gap-16 lg:gap-24'>
 					<div className='grid gap-8 md:gap-16'>
-						<div className='grid md:gap-1'>
-							<h4 className='text-lightGreen text-lg mb-2 md:text-xl lg:text-3xl lg:mb-4'>
+						<div className='grid justify-center text-center md:gap-1'>
+							<h4 className='text-lightGreen text-2xl mb-4 md:text-3xl lg:text-4xl lg:mb-8'>
 								MS DENT Praktyka stomatologiczna
 							</h4>
-							<p className='lg:text-xl'>Nowy Nikiszowiec ul. Gospodarcza 46</p>
-							<p className='lg:text-xl'>40-432 Katowice</p>
+							<p className='text-lg lg:text-2xl'>
+								Nowy Nikiszowiec ul. Gospodarcza 46
+							</p>
+							<p className='text-lg lg:text-2xl'>40-432 Katowice</p>
 						</div>
-						<div className='grid'>
-							<h4 className='font-medium text-bronze lg:text-xl'>
+						<div className='grid mt-4'>
+							<h4 className='font-medium text-center text-blue text-lg mb-4 lg:text-2xl'>
 								Godziny przyjęć:
 							</h4>
-							<div className='grid grid-cols-2 lg:text-xl'>
+							<div className='grid grid-cols-2 text-lg lg:text-2xl'>
 								<div>
 									<p>Pon - Cz</p>
 									<p>Pt</p>
@@ -34,11 +36,11 @@ const Contact = () => {
 								</div>
 							</div>
 						</div>
-						<div>
-							<h4 className='font-medium text-bronze lg:text-xl'>
+						<div className='mt-2'>
+							<h4 className='font-medium text-center text-blue text-lg mb-4 lg:text-2xl'>
 								Rejestracja:
 							</h4>
-							<div className='grid grid-cols-2 gap-4 mt-4'>
+							<div className='grid grid-cols-2 gap-4 mt-8'>
 								<a
 									href='tel:322093443'
 									className='text-center bg-green text-brokenWhite border border-green py-3 px-1 rounded-lg transition-colors duration-200 hover:bg-brokenWhite hover:text-green hover:border-green active:bg-brokenWhite active:text-green active:border-green'>

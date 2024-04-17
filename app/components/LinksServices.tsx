@@ -25,7 +25,7 @@ const LinksServices = ({ setShowServices, setShowNav }: LinksServicesProps) => {
 				const isActive = link.href === pathname;
 				return (
 					<li
-						className='flex justify-end relative my-3 md:justify-start md:my-2 md:mb-0'
+						className='flex relative my-3 md:justify-start md:my-2 md:mb-0'
 						key={link.name}>
 						<Link
 							onClick={closeMenus}

@@ -42,7 +42,7 @@ const Links = ({ setShowNav, setShowServices, showServices }: LinksProps) => {
 	};
 
 	return (
-		<ul className='relative flex flex-col w-full p-2 justify-between md:flex-row md:h-full'>
+		<ul className='relative flex flex-col w-full py-2 pr-2 justify-between md:pl-2 md:flex-row md:h-full'>
 			{linksNav.map(link => {
 				const isActive = link.href === pathname;
 				return (
@@ -52,7 +52,7 @@ const Links = ({ setShowNav, setShowServices, showServices }: LinksProps) => {
 						className={`flex relative my-3 md:my-0 md:mb-0 ${
 							link.name === 'USŁUGI'
 								? 'mr-1 ml-0 flex-row-reverse'
-								: 'mx-1 flex-row justify-end'
+								: 'flex-row justify-end'
 						} `}
 						key={link.name}>
 						<Link
@@ -75,8 +75,8 @@ const Links = ({ setShowNav, setShowServices, showServices }: LinksProps) => {
 							<div className='mr-3 md:relative md:mr-0 ml-2'>
 								<button
 									onClick={servicesHandler}
-									className={`flex hover:scale-95 active:scale-95 h-full items-center -rotate-180 transition-transform duration-200 ${
-										showServices && 'rotate-0'
+									className={`flex hover:scale-95 active:scale-95 h-full items-center -rotate-180 transition-transform duration-200 md:rotate-0 ${
+										showServices && 'rotate-0 md:rotate-180'
 									}`}>
 									<svg
 										xmlns='http://www.w3.org/2000/svg'
@@ -84,7 +84,7 @@ const Links = ({ setShowNav, setShowServices, showServices }: LinksProps) => {
 										viewBox='0 0 24 24'
 										strokeWidth={1.5}
 										stroke='currentColor'
-										className='w-6 h-6 text-white md:hidden'>
+										className='w-7 h-7 text-white md:hidden'>
 										<path
 											strokeLinecap='round'
 											strokeLinejoin='round'
@@ -97,7 +97,7 @@ const Links = ({ setShowNav, setShowServices, showServices }: LinksProps) => {
 										viewBox='0 0 24 24'
 										strokeWidth={1.5}
 										stroke='currentColor'
-										className='hidden w-6 h-6 text-white md:block'>
+										className='hidden w-7 h-7 text-white md:block'>
 										<path
 											strokeLinecap='round'
 											strokeLinejoin='round'

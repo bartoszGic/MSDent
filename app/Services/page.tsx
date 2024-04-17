@@ -12,7 +12,7 @@ const Services = () => {
 			<h2 className='tracking-widest text-4xl text-yellow text-center mb-8 md:mb-12'>
 				Usługi
 			</h2>
-			<p className='mb-8 text-sm text-dark tracking-wide md:text-xl md:mb-16 md:font-light'>
+			<p className='mb-8 text-dark tracking-wide md:text-xl md:mb-16 md:font-light'>
 				Prezentujemy szeroką gamę usług, zapewniając kompleksową opiekę
 				stomatologiczną dla naszych pacjentów. Nasze usługi obejmują badania
 				stomatologiczne, konsultacje w celu ustalenia planu leczenia, wizyty

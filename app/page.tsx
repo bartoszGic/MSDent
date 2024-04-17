@@ -37,7 +37,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<div>
+			<div className='sm:mt-16'>
 				<div className='grid grid-cols-1 gap-8 md:grid-cols-2'>
 					<div className='grid grid-cols-1'>
 						<h2 className='tracking-widest text-4xl text-yellow text-center mb-8'>
