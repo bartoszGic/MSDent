@@ -70,7 +70,7 @@ const Contact = () => {
 								/>
 							</Link>
 						</div>
-						<div className='flex flex-col items-center'>
+						<div className='flex flex-col items-center mb-4 md:mb-0'>
 							<p className='text-yellow mb-4 font-medium text-2xl text-center md:mb-8 lg:text-4xl'>
 								Polub nas
 							</p>
