@@ -42,7 +42,7 @@ const Links = ({ setShowNav, setShowServices, showServices }: LinksProps) => {
 	};
 
 	return (
-		<ul className='relative flex flex-col w-full py-2 pr-2 justify-between md:pl-2 md:flex-row md:h-full'>
+		<ul className='relative flex flex-col w-full py-2 pr-6 justify-between md:pr-2 md:pl-2 md:flex-row md:h-full'>
 			{linksNav.map(link => {
 				const isActive = link.href === pathname;
 				return (
