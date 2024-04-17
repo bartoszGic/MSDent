@@ -24,7 +24,7 @@ const Header = () => {
 			<div className='relative flex items-center justify-between h-full w-full mx-auto'>
 				<Link
 					href='/'
-					className='ml-7'>
+					className='ml-6'>
 					<Image
 						className='w-[50px] h-auto'
 						src={msdent_header}
@@ -60,7 +60,7 @@ const Header = () => {
 				<button
 					onClick={() => setShowNav(state => !state)}
 					type='button'
-					className='p-2 text-sm text-white md:hidden'>
+					className='p-2 text-sm mr-3 text-white md:hidden'>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
 						fill='none'

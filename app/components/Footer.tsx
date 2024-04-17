@@ -1,11 +1,13 @@
 import React from 'react';
-
+import Link from 'next/link';
 const Footer = () => {
 	const currentYear = new Date().getFullYear();
 	return (
 		<footer className='flex w-full bg-green text-light'>
 			<div className='flex flex-col w-full m-4 font-light text-sm lg:m-8'>
-				<h3 className='tracking-widest font-light text-3xl'>Kontakt</h3>
+				<Link href='/Contact'>
+					<h3 className='tracking-widest font-light text-3xl'>Kontakt</h3>
+				</Link>
 				<div className='h-[2px] bg-bronze w-1/2 mt-1 sm:w-1/3 md:w-1/4 lg:mb-4'></div>
 				<div className='grid grid-cols-1 md:grid-cols-3 font-normal'>
 					<div className='mt-4'>
@@ -54,7 +56,7 @@ const Footer = () => {
 						</a>
 					</div>
 				</div>
-				<div className='h-[1px] bg-grey w-full mt-6 lg:mt-10'></div>
+				<div className='h-[1px] bg-light w-full mt-6 lg:mt-10'></div>
 				<div className='flex justify-center text-xs text-light mt-6 mb-2 lg:mt-10'>
 					<div className='mr-4'>{`© ${currentYear}, MS Dent`}</div>
 					<div>Design by Bartosz Gicala</div>
