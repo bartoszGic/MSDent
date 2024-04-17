@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 	title: 'MS Dent',
 	description: 'Praktyka stomatologiczna',
 };
-const colorScheme: ColorSchemeEnum = 'only light';
+const colorScheme: ColorSchemeEnum = 'light dark';
 
 export default function RootLayout({
 	children,
