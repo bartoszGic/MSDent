@@ -24,7 +24,7 @@ const Header = () => {
 			<div className='relative flex items-center justify-between h-full w-full mx-auto'>
 				<Link
 					href='/'
-					className='ml-6'>
+					className='ml-6 lg:ml-8'>
 					<Image
 						className='w-[50px] h-auto'
 						src={msdent_header}
