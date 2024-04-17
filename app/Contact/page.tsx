@@ -55,8 +55,8 @@ const Contact = () => {
 						</div>
 					</div>
 					<div className='grid h-full text-center gap-16'>
-						<div>
-							<p className='text-yellow mb-4 font-medium text-lg text-center md:text-xl md:mb-8 lg:text-3xl'>
+						<div className='mt-4'>
+							<p className='text-yellow mb-4 font-medium text-2xl text-center md:mb-8 lg:text-4xl'>
 								Oceń nas
 							</p>
 							<Link
@@ -71,7 +71,7 @@ const Contact = () => {
 							</Link>
 						</div>
 						<div className='flex flex-col items-center'>
-							<p className='text-yellow mb-4 font-medium text-lg text-center md:text-xl md:mb-8 lg:text-3xl'>
+							<p className='text-yellow mb-4 font-medium text-2xl text-center md:mb-8 lg:text-4xl'>
 								Polub nas
 							</p>
 							<Link
