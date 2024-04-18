@@ -15,5 +15,5 @@ https://ms-dent-yqqo.vercel.app/
 
 ## Preview
 
-<!-- ![preview1](https://github.com/bartoszGic/GiChat/blob/main/public/preview1.PNG)
-![preview1](https://github.com/bartoszGic/GiChat/blob/main/public/preview2.PNG) -->
+![preview1](https://github.com/bartoszGic/MSDent/blob/main/public/preview1.PNG)
+![preview2](https://github.com/bartoszGic/MSDent/blob/main/public/preview2.PNG)
